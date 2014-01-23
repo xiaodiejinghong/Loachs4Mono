@@ -3,6 +3,7 @@
 2、初始管理员账户/密码：admin/admin888
 3、针对WIndows和Linux分别有后缀为：.win和.linux的webconfig文件
 4、webconfig配置中，数据库的配置，打开想要的数据库注释即可。
+5、app_data中有对应数据库的创建脚本（数据库文件），执行脚本创建即可。
 
 
 
