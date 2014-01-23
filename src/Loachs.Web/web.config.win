@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<configuration>
+  <appSettings>
+    <!--loachs 配置开始-->
+    <!--cache cookie session 等前缀,防止与现有程序冲突,限英文,一般无需修改-->
+    <add key="loachs_siteprefix" value="loachs"/>
+    <!-- 程序路径,安装在根目录为"/",安装在blog子目录，则修改为"/blog/" -->
+    <add key="loachs_sitepath" value="/"/>
+
+    <!--数据库连接字串及数据库类型,只能打开其中一种-->
+    <!--Access-->
+    <!--
+    <add key ="DBType" value="Access"/>
+    <add key="loachs_dbconnection" value="app_data/loachs.mdb"/>
+    -->
+
+    <!--MSSQL-->
+    <!--
+    <add key ="DBType" value="MSSQL"/>
+    <add key="loachs_dbconnection" value="server=127.0.0.1;Initial Catalog=loachs;User ID=sa;pwd=123456"/>
+    -->
+
+    <!--MYSQL-->
+    <!--
+    <add key ="DBType" value="MYSQL"/>
+    <add key="loachs_dbconnection" value="server = 127.0.0.1; user id = root; password = root; database = loachs"/>
+    -->
+
+    <!--Postgres-->
+    <!--
+    <add key ="DBType" value="Postgres"/>
+    <add key="loachs_dbconnection" value="server = 192.168.79.128; user id = postgres; password = 123456; Database = loachs"/>
+    -->
+
+    <!--SQLite，数据库类型：DBType 区分MS.NET与Mono-->
+    <add key ="DBType" value="WinSqlite"/>
+    <!--<add key ="DBType" value="MonoSqlite"/>-->
+    <add key="loachs_dbconnection" value="/app_data/loachs.sqlite.db"/>
+
+    <!--loachs 配置结束-->
+  </appSettings>
+  <system.web>
+    <httpRuntime maxRequestLength="409600" executionTimeout="3600"   />
+    <compilation debug="true">
+    </compilation>
+    <customErrors mode="Off"></customErrors>
+    <httpModules>
+      <add name="loachs_rewriter" type="Loachs.Controls.UrlRewriter"/>
+    </httpModules>
+    <globalization fileEncoding="utf-8" requestEncoding="utf-8" responseEncoding="utf-8"/>
+  </system.web>
+  <system.webServer>
+    <validation validateIntegratedModeConfiguration="false"/>
+    <modules runAllManagedModulesForAllRequests="true">
+      <add name="loachs_rewriter" type="Loachs.Controls.UrlRewriter"/>
+    </modules>
+    <handlers>
+
+      <add name="html-2.0" path="*.html" verb="*" modules="IsapiModule" scriptProcessor="%windir%\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll" resourceType="Unspecified" preCondition="classicMode,runtimeVersionv2.0,bitness32"/>
+      <add name="html-2.0_64bit" path="*.html" verb="*" modules="IsapiModule" scriptProcessor="%windir%\Microsoft.NET\Framework64\v2.0.50727\aspnet_isapi.dll" resourceType="Unspecified" preCondition="classicMode,runtimeVersionv2.0,bitness64"/>
+
+      <add name="html-4.0" path="*.html" verb="*" modules="IsapiModule" scriptProcessor="%windir%\Microsoft.NET\Framework\v4.0.30319\aspnet_isapi.dll" resourceType="Unspecified" preCondition="classicMode,runtimeVersionv4.0,bitness32"/>
+      <add name="html-4.0_64bit" path="*.html" verb="*" modules="IsapiModule" scriptProcessor="%windir%\Microsoft.NET\Framework64\v4.0.30319\aspnet_isapi.dll" resourceType="Unspecified" preCondition="classicMode,runtimeVersionv4.0,bitness64"/>
+
+    </handlers>
+
+  </system.webServer>
+</configuration>

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>#if(${isdefault}==0) ${pagetitle} - #end ${sitename}</title>
+<meta name="keywords" content="${metakeywords}" />
+<meta name="description" content="${metadescription}" />
+<link rel="stylesheet" type="text/css" media="all" href="${themeurl}css/style.css" />
+<script type="text/javascript" src="${siteurl}common/scripts/jquery.js"></script>
+<script type="text/javascript" src="${siteurl}common/scripts/common.js"></script>
+${head}
+</head>
+<body>
+<div id="wrapper">
+	<div class="site">
+        <h2><a href="$siteurl">            
+        <cufon alt="${sitename}"><cufontext>${sitename}</cufontext></cufon>            
+        </a></h2>
+        <small>${sitedescription}</small>
+    </div>
+    <div id="header">        
+        <ul class="nav">
+        #foreach($item in $navlinks)
+            <li><a href="${item.url}" title="${item.description}" target="${item.target}"><span>${item.name}</span></a></li>
+        #end
+        </ul>
+        <div id="search" class="widget">
+        	<p><a href="${feedurl}">Subscribe via RSS</a></p>      
+            <form id="searchform" action="${siteurl}search.aspx" method="get" >
+                <input type="text" id="keyword" name="keyword" value="${searchkeyword}" class="search_input_text" /> <input type="submit" value="" class="search_input_button" />
+            </form>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="container"> 

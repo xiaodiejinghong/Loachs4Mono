@@ -1,0 +1,72 @@
+﻿    <h3 id="comments"><span>评论列表(${post.commentcount}) ${post.feedlink}</span></h3>
+    <ul id="commentlist">
+        #foreach($item in $comments)
+        <li id="comment-${item.commentid}"  class="alt" >
+            <div class="comment-meta">
+            	<dl>
+                	<dt>
+                	<img src="http://1.gravatar.com/avatar/76fe4b74f8d4506a41037265b2ba1f1d?s=36&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D36&r=G"  width="36" alt="${item.name}" title="${item.name}"/></dt>
+                    <dd>
+                    <span class="comment-author">${item.authorlink}</span>
+                    <span class="comment-date" >${item.createdate.tostring("yyyy-MM-dd HH:mm")}</span></dd>
+                	<dd class="comment-floor">${item.floor}</dd>
+                </dl>
+                <div class="clear"></div>
+            </div>
+            <p>
+                #if($item.approved==1)
+                    ${item.content}
+                #else
+                    [待审核]
+                #end
+            </p>
+        </li>
+        #end
+    </ul>
+     #if($comments.count==0)
+        <p>暂无评论</p>
+        #end
+    ${pager}
+ 
+    #if(${post.commentstatus}==1)
+    <h3 id="addcomment"><span>添加评论</span></h3>
+    
+    <form id="commentform" action="${url}#addcomment" method="post">
+    <p>
+        <label for="commentauthor">名称<i>(*)</i></label>
+        <input type="text" name="commentauthor" id="commentauthor" value="${commentauthor}" />
+    </p>
+    <p>
+        <label for="commentemail">邮箱<i>(*)</i></label>
+        <input type="text" name="commentemail" id="commentemail" value="${commentemail}"/>
+    </p>
+    <p>
+        <label for="commentsiteurl">网站</label>
+        <input type="text" name="commentsiteurl" id="commentsiteurl" value="${commentsiteurl}" />
+    </p>
+    <p>
+        <label for="commentcontent">内容<i>(*)</i></label>
+        <textarea name="commentcontent" id="commentcontent" cols="75" rows="8"  >${commentcontent}</textarea>
+    </p>
+    <p>
+        <span><label for="commentremember"><input id="commentremember"  name="commentremember" type="checkbox" value="1" checked="checked"/>记住个人信息?</label></span>
+        <span><label for="commentemailnotify"><input id="commentemailnotify" name="commentemailnotify" type="checkbox" value="1" checked="checked" />有回复时邮件通知我?</label></span>
+    </p>
+    #if($enableverifycode==1)
+    <p>
+        <label for="commentverifycode">验证码(*)</label>
+        <input id="commentverifycode" name="commentverifycode"  type="text"  />
+        
+        <img align="absbottom" onclick="this.src='${sitepath}common/tools/verifyimage.aspx?time=' + Math.random()" src="${sitepath}common/tools/verifyimage.aspx" style="cursor: pointer;" alt="点击刷新"/>
+    </p>
+    #end
+    <span>
+        <input name="commentsubmit" type="submit" id="commentsubmit"   value="提交" onclick="return checkComment();"  />
+        <input type="hidden" id="postid" name="postid" value="${post.postid}" />
+        <input type="hidden" id="enableverifycode" value="${enableverifycode}" />
+    </span>
+    <div id="commentmessage">${commentmessage}</div>
+    </form>
+    #else
+    <p>禁止评论</p>
+    #end

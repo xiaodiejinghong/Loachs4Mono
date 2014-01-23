@@ -1,0 +1,8 @@
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.MonoSqlite\bin\Debug\Loachs.Data.MonoSqlite.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.MonoSqlite\bin\Debug\Loachs.Data.MonoSqlite.pdb
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.MonoSqlite\bin\Debug\Loachs.Core.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.MonoSqlite\bin\Debug\Mono.Data.Sqlite.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.MonoSqlite\bin\Debug\Loachs.Core.pdb
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.MonoSqlite\obj\Debug\Loachs.Data.MonoSqlite.csprojResolveAssemblyReference.cache
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.MonoSqlite\obj\Debug\Loachs.Data.MonoSqlite.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.MonoSqlite\obj\Debug\Loachs.Data.MonoSqlite.pdb

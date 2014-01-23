@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Loachs">
+</Property><Property Name="解决方案文件" Value="E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.sln">
+</Property><Property Name="用户选项文件" Value="E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.suo">
+</Property><Property Name="Date" Value="2014年1月1日">
+</Property><Property Name="Time" Value="22:01">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Loachs.sln" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Loachs.suo" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.suo">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Loachs.Core.csproj" Description="项目文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Loachs.Core.csproj">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Common\CacheHelper.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Common\CacheHelper.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Common\Caches.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Common\Caches.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Common\ConfigHelper.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Common\ConfigHelper.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Common\EmailHelper.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Common\EmailHelper.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Common\NetHelper.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Common\NetHelper.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Common\RequestHelper.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Common\RequestHelper.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Common\StringHelper.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Common\StringHelper.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Common\Utils.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Common\Utils.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Controls\Pager.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Controls\Pager.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Controls\UrlRewriter.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Controls\UrlRewriter.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Data\DataAccess.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Data\DataAccess.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Data\Interface\IComment.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Data\Interface\IComment.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Data\Interface\IDbHelper.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Data\Interface\IDbHelper.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Data\Interface\IPost.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Data\Interface\IPost.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Data\Interface\IUser.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Data\Interface\IUser.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Data\Interface\ILink.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Data\Interface\ILink.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Data\Interface\ITag.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Data\Interface\ITag.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Data\Interface\ICategory.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Data\Interface\ICategory.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Data\Interface\IStatistics.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Data\Interface\IStatistics.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Data\Interface\ISetting.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Data\Interface\ISetting.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Entity\ArchiveInfo.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Entity\ArchiveInfo.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Entity\CategoryInfo.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Entity\CategoryInfo.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Entity\CommentInfo.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Entity\CommentInfo.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Entity\Common\Enums.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Entity\Common\Enums.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Entity\LinkInfo.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Entity\LinkInfo.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Entity\PostInfo.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Entity\PostInfo.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Entity\SettingInfo.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Entity\SettingInfo.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Entity\TagInfo.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Entity\TagInfo.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Entity\ThemeInfo.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Entity\ThemeInfo.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Entity\UserInfo.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Entity\UserInfo.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Entity\StatisticsInfo.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Entity\StatisticsInfo.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Properties\AssemblyInfo.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Service\ArchiveManager.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Service\ArchiveManager.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Service\CommentManager.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Service\CommentManager.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Service\LinkManager.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Service\LinkManager.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Service\PostManager.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Service\PostManager.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Service\SettingManager.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Service\SettingManager.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Service\TagManager.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Service\TagManager.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Service\ThemeManager.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Service\ThemeManager.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Service\UserManager.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Service\UserManager.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Service\CategoryManager.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Service\CategoryManager.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Service\StatisticsManager.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Core\Service\StatisticsManager.cs">
+</Event><Event ErrorLevel="1" Project="Loachs.Core" Source="Loachs.Core\Loachs.Core.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Loachs.Core.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Loachs.Core" Source="Loachs.Core\Loachs.Core.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Loachs.Data.Access" Source="Loachs.Data.Access\Loachs.Data.Access.csproj" Description="项目文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Data.Access\Loachs.Data.Access.csproj">
+</Event><Event ErrorLevel="0" Project="Loachs.Data.Access" Source="Loachs.Data.Access\Category.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Data.Access\Category.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Data.Access" Source="Loachs.Data.Access\Class1.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Data.Access\Class1.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Data.Access" Source="Loachs.Data.Access\Comment.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Data.Access\Comment.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Data.Access" Source="Loachs.Data.Access\Common\OledbHelper.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Data.Access\Common\OledbHelper.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Data.Access" Source="Loachs.Data.Access\Link.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Data.Access\Link.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Data.Access" Source="Loachs.Data.Access\Post.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Data.Access\Post.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Data.Access" Source="Loachs.Data.Access\Properties\AssemblyInfo.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Data.Access\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Data.Access" Source="Loachs.Data.Access\Setting.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Data.Access\Setting.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Data.Access" Source="Loachs.Data.Access\Statistics.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Data.Access\Statistics.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Data.Access" Source="Loachs.Data.Access\Tag.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Data.Access\Tag.cs">
+</Event><Event ErrorLevel="0" Project="Loachs.Data.Access" Source="Loachs.Data.Access\User.cs" Description="文件已成功备份为 E:\ASP\Mono\project\Loachs1.3_src\src\Backup\Loachs.Data.Access\User.cs">
+</Event><Event ErrorLevel="1" Project="Loachs.Data.Access" Source="Loachs.Data.Access\Loachs.Data.Access.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Loachs.Data.Access" Source="Loachs.Data.Access\Loachs.Data.Access.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Loachs.Data.Access" Source="Loachs.Data.Access\Loachs.Data.Access.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Loachs.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="Loachs.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Loachs.Core" Source="Loachs.Core\Loachs.Core.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Loachs.Data.Access" Source="Loachs.Data.Access\Loachs.Data.Access.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

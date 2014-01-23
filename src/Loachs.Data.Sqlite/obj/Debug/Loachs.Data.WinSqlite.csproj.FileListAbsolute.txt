@@ -1,0 +1,11 @@
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Sqlite\bin\Debug\x64\SQLite.Interop.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Sqlite\bin\Debug\x86\SQLite.Interop.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Sqlite\bin\Debug\Loachs.Data.WinSqlite.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Sqlite\bin\Debug\Loachs.Data.WinSqlite.pdb
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Sqlite\bin\Debug\Loachs.Core.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Sqlite\bin\Debug\System.Data.SQLite.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Sqlite\bin\Debug\Loachs.Core.pdb
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Sqlite\bin\Debug\System.Data.SQLite.xml
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Sqlite\obj\Debug\Loachs.Data.WinSqlite.csprojResolveAssemblyReference.cache
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Sqlite\obj\Debug\Loachs.Data.WinSqlite.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Sqlite\obj\Debug\Loachs.Data.WinSqlite.pdb

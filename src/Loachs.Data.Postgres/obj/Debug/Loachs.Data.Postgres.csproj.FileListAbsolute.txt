@@ -1,0 +1,17 @@
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Postgres\bin\Debug\Loachs.Data.Postgres.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Postgres\bin\Debug\Loachs.Data.Postgres.pdb
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Postgres\bin\Debug\Loachs.Core.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Postgres\bin\Debug\Mono.Security.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Postgres\bin\Debug\Npgsql.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Postgres\bin\Debug\Loachs.Core.pdb
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Postgres\bin\Debug\Npgsql.pdb
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Postgres\bin\Debug\Npgsql.xml
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Postgres\bin\Debug\de\Npgsql.resources.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Postgres\bin\Debug\es\Npgsql.resources.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Postgres\bin\Debug\fi\Npgsql.resources.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Postgres\bin\Debug\fr\Npgsql.resources.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Postgres\bin\Debug\ja\Npgsql.resources.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Postgres\bin\Debug\zh-CN\Npgsql.resources.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Postgres\obj\Debug\Loachs.Data.Postgres.csprojResolveAssemblyReference.cache
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Postgres\obj\Debug\Loachs.Data.Postgres.dll
+E:\ASP\Mono\project\Loachs1.3_src\src\Loachs.Data.Postgres\obj\Debug\Loachs.Data.Postgres.pdb
